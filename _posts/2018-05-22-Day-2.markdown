@@ -1,0 +1,15 @@
+---
+layout: post
+title: Day 2 
+---
+
+I have decided to change the scope of the project. Instead of making a website for multiple boards, I will make a single board website with additional pages for registering, logging, creating post, and viewing and replying to posts.
+
+![Imgur](https://i.imgur.com/cnn25fK.png)
+More progress on main web page has been made. I have decided on a simple theme. The theme consists of a dark background, mostly white text, and splashes of a certain blue. Its screams unprofessional but at least I am trying. Codepen, particularly, has been a lovely visual editor and has made this entire ordeal very relaxing. 
+
+I also adjusted the HTML  layout to better reflect the model, lolboards. This is especially important because it gave me an idea for a systematic way of developing websites. First I describe the data, particularly text and images. I use placeholders if the data is dynamic. Then I use html to position the data. Then CSS. Then Javascript and PHP, if necessary. I hope this will make developing websites easier and faster.   
+
+I also decided to start make blog the progress, of which you are reading now. I also wanted to challenge myself and mostly use the command line. First, I installed the Linux subsystem for Windows. I chose the Ubuntu shell because, frankly, it sounds the least annoying.  Next, I installed Git for this subsystem.  I used Git to create a project for this website. I also set up the project page, of which this blog is hosted. Lastly, I installed and set-up Jekyll. I ran into many issues along the way but it everything is currently working.
+
+![Imgur](https://i.imgur.com/0tDlKhq.png)
