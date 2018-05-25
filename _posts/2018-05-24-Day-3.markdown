@@ -1,0 +1,18 @@
+﻿---
+layout: post
+title: Day 3 
+---
+
+This is actually Day 4. I spent most of Day 3 trying to get the devlog on Github. I thought I had it on Day 2, but the layout wasn't working. I spent some 3 hours trying various things until I found post saying I had to fix configuration file. It would have been lovely if this was on the Jekyll website, but sometimes you just have to take what you get. Well, that happened.
+
+I began today finishing the boards page. The button's size should be consistent with the size of posts. The posts also should navigate correctly now; that is, when I set-up the posts page.
+
+![Imgur](https://i.imgur.com/WRDQpHd.png)
+
+I also began and hopefully finished the sign in page. This was just typical form stuff. It was difficult at all. I followed my page creation plan that I discussed in my previous page. It seemed pretty useful, although, this page is too short to make any final conclusions.
+
+The only real issue I had was deciding whether I should style the page with mostly with bootstrap's class configurations or typical CSS. Turns out, this does not really matter since the page is really short. 
+
+My Java UI experience is really coming in handy!
+
+![Imgur](https://i.imgur.com/ewLe52q.png)
