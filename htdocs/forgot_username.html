@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="style/forgot_username.css">
+    </head>
+    <body class="bg-dark text-light">
+        <nav class="navbar navbar-dark bg-info">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.php">Boards</a>
+                </div>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="sign_in.html">Login</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+        <div id="content">
+            <div id="heading"><h3>FORGOT USERNAME?</h3></div>
+            <div id="heading"><h6><i>Provide email address below.</i></h6>
+            </div>
+            <form>
+                <p id="submit-info">We have sent you a username recovery email. Sometimes this email can take a few minutes to reach your inbox. It may also get redirected to your spam folder.</p>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter email address" oninput="updateSubmitButton()">
+                </div>
+                <div id="submit"><button id = "submitBtn" type="submit" class="btn btn-primary" onclick="recoverUsername()"disabled>SUBMIT</button></div>
+            </form>
+            <a href="forgot_password.html">Forgot Password?</a>
+        </div>
+    </body>
+    
+    <script src="script/forgot_username.js"></script>
+</html>

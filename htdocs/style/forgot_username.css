@@ -1,0 +1,36 @@
+#content {
+  width: 400px;
+  margin: auto;
+  margin-top: 100px;
+  padding-left: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-style:solid;
+  background:black;
+}
+
+#heading {
+  margin-bottom: 20px;
+}
+
+.form-check {
+  margin-bottom: 50px;
+}
+
+button {
+  width: 95%;
+  margin: auto;
+}
+
+.form-group {
+  width: 95%;
+}
+
+#submit {
+  margin-top: 100px;
+  margin-bottom: 25px;
+}
+
+#submit-info {
+  display: none;
+}

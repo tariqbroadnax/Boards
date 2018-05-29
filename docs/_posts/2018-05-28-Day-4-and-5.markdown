@@ -1,0 +1,32 @@
+﻿---
+layout: post
+title: Day 4 and 5 
+---
+
+Lots of progress. Lots learned.
+
+I installed XAMPP. I remember moving very slowly in my previous back-end project because I often switched between 3-5 apps. In contrast, XAMPP makes my workflow much more smooth because many operations are grouped into a simple client app and a configuration website. My only complaint is that XAMPP's MySQL interface, as a programmer with a little database experience, felt a little confusing. 
+
+![Imgur](https://i.imgur.com/cwvT2bV.png)
+![Imgur](https://i.imgur.com/QACuZJJ.png)
+I also installed Brackets since I cannot quickly edit and test PHP files with an online editor. Its very pretty.
+
+![Imgur](https://i.imgur.com/wQj0oTj.png)
+
+Using XAMPP, I began setting up my database. So far, I have tables for posts and comments.
+
+With my post table set up, I edited the PHP homepage to display them. I also programmed the sort links, using query parameters.
+
+The most important change, however, was the programming of the show more button. Working on it has revealed something extremely important to me. Previously, I thought PHP files could only load web-pages. However, PHP files can load any type of text and it doesn't have to be used as web-pages. Using AJAX, I can load text and use the data however I want. 
+
+This got me thinking about the best way to send the data. Usually, I send data essentially as CSV files (but without the commas). It is a simple and quick way to display database information. However, I wanted to challenge myself and knew that I would eventually be working with hierarchical data. And so I looked into JSON. I remember reading somewhere that JSON is the de facto way to send data over the internet. And now I see why. The format and the built parsing support on the frontend and backend makes sharing data really simple.
+
+Given this, my show more button works as follows. It requests a PHP page. The PHP page sends the data as JSON. The client parses the JSON and uses the corresponding data to show more posts.
+
+Outside of my homepage or board page, I continued working on other pages that involved the creation and recovery of an account. However, I haven't yet programmed the back-end side of this. This will be my first time working with forms and so I am little scared. I hope my website does not get hacked. x.x.
+
+While my abundant files, I decided to organize my project a little. I store css file in a style folder. And I store scripts in a script folder. Again, I remember seeing this somewhere and decided to copy. 
+
+I wanted to finish the project today, but it is proving more difficult that I had previously anticipated. I am definitely learning a lot but I do not want to work on this too long. I want to finish many more projects before I croak. And so, I hope to finish within the next 2 days; that is, before Thursday. Hopefully my new todo lists help me move a little more quickly.
+
+![Imgur](https://i.imgur.com/oyIWLdR.png)

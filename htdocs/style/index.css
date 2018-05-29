@@ -1,0 +1,52 @@
+#header {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightblue;
+}
+
+.voteCol, .commentCol, .viewCol {
+  text-align: center;
+}
+
+.numVotes:hover .netVotes {
+  display:none;
+}
+
+.numVotes:hover .votes {
+  display:inline;
+}
+
+.numVotes .votes {
+  display:none;
+}
+
+.netVotes {
+  color: green;
+}
+
+.upvotes {
+  color: green;
+}
+
+.downvotes {
+  color: red;
+}
+
+#show {
+  border-style: solid;
+  margin-top: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#show button {
+  width: 100%;
+  margin-left: 0px;
+}
